@@ -7,6 +7,7 @@ import { IndexRouter } from "./controllers/v0/index.router";
 
 import bodyParser from "body-parser";
 import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
+import { config } from "./config/config";
 
 (async () => {
   dotenv.config();
@@ -25,6 +26,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   console.log("Database Connected");
 
   const app = express();
+  //change this
   const port = 8080;
 
   app.use(bodyParser.json());
