@@ -8,7 +8,7 @@ export class User extends Model<User> {
 
   @Column
   public passwordHash!: string;
-
+  
   @Column
   @CreatedAt
   public createdAt: Date = new Date();
