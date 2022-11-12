@@ -1,6 +1,10 @@
 //Done//
+Where you stopped:
+-write the circle ci file so to be able to deploy (tests and deployment, try to write a simple command so to test the bin/deploy.sh file)
+-write the files of bin/deploy.sh in both api and front
+-crate services
+-add pipeline screenshots as for descriptions + real description
 
-send to adham files
 
 //In Progress//
 -central configuration file is used to add env variables []
