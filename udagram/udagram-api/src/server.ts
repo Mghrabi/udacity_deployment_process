@@ -2,12 +2,11 @@ import * as dotenv from "dotenv";
 import cors from 'cors';
 import express from "express";
 import { sequelize } from "./sequelize";
-
 import { IndexRouter } from "./controllers/v0/index.router";
-
 import bodyParser from "body-parser";
 import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
 import { config } from "./config/config";
+dotenv.config();
 
 (async () => {
   dotenv.config();
@@ -27,7 +26,7 @@ import { config } from "./config/config";
 
   const app = express();
   //change this
-  const port = 8080;
+  const port =  parseInt(process.env.PORT) | 8080;
 
   app.use(bodyParser.json());
 

@@ -4,13 +4,12 @@
 
 //In Progress//
 -central configuration file is used to add env variables []
--add documentation folder for the three things required (see the description) => [almost_done]
+-add documentation folder for the three things required (see the description) => [almost_done_except_pipeline]
 -two diagrams showing high-level view of the infrastructure + diagram showing the pipline (see the description)
-arrows etc
-
+arrows etc [almost_done_except_pipeline]
 
 -Create circle ci process to ensure everything is working just fine and know how to configure circle ci (you can make 
-a simple ci circle) (including env variables, make sure to not change any of them) 
+a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts
 -add comments each time you put a new command and make them straight to the point
 -Create services and make sure every service works fine (including the env variables)
 -update the host api in environment file

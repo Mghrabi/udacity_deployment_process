@@ -2,6 +2,10 @@ import { TIMEOUT } from "dns";
 import { TimeoutError } from "sequelize";
 import { Sequelize } from "sequelize-typescript";
 import { config } from "./config/config";
+import * as dotenv from "dotenv";
+dotenv.config();
+
+// console.log('process.env.NODE_ENV',process.env.ENV)
 
 // export const sequelize = new Sequelize({
 //   username: config.username,
