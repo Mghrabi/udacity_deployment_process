@@ -6,17 +6,25 @@ Where you stopped:
 -add pipeline screenshots as for descriptions + real description
 
 
+
+
+
 //In Progress//
 -central configuration file is used to add env variables []
--add documentation folder for the three things required (see the description) => [almost_done] [pipeline] 
+-add documentation folder for the three things required (see the description) => [almost_done] [pipeline_screenshots] 
 -two diagrams showing high-level view of the infrastructure + diagram showing the pipline (see the description)
-arrows etc [almost_done] [pipeline]
+arrows etc [almost_done] [pipeline_diagram]
 
 -Create circle ci process to ensure everything is working just fine and know how to configure circle ci (you can make [almost_done] [deploy]
 a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts
--add comments each time you put a new command and make them straight to the point
+-add comments each time you put a new command and make them straight to the point 
+
+-try to add an uri in your .env and don't change the way sequelize connect to a database
 -Create services and make sure every service works fine (including the env variables)
--update the host api in environment file
+-update circle ci with required env variables
+-env variables including aws_bucket, 
+-remove password and other unrelated env variables from .sh in api
+-update the host api in environment file (add env-variables from the local environment to the eb service)
 -udpate the database link in sequalize file
 -Connect them together and make sure they work properly (take screeshots of them)
 -Make sure building commands and circle ci works fine when trying to update or something (take screenshots) (including env variables)
@@ -27,5 +35,6 @@ a simple ci circle) (including env variables, make sure to not change any of the
 docs:
 -provide the link for the app
 -screenshots folder
+-params for env
 
 -understand what's left
