@@ -19,7 +19,8 @@ arrows etc [almost_done] [pipeline_diagram]
 a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts
 -add comments each time you put a new command and make them straight to the point 
 
--try to add an uri in your .env and don't change the way sequelize connect to a database
+
+-try to add an uri in your .env host vairable and see if the connections is established successfully or not, and don't change the way sequelize connect to a database
 -Create services and make sure every service works fine (including the env variables)
 -update circle ci with required env variables
 -env variables including aws_bucket, 
