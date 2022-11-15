@@ -18,9 +18,3 @@ export const sequelize = new Sequelize({
 });// 
 
 
-//don't change to put this in production file
-//change the uri 
-// export const sequelize = new Sequelize(
-//   "postgres://postgres:postgrespostgres@database-1.cqhhsz3eie0k.us-east-1.rds.amazonaws.com:5432/databasename"
-//   // 'postgres://postgres:postgrespostgres@database-1'
-// );
