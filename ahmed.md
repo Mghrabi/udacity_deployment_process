@@ -14,6 +14,7 @@ Where you stopped:
 -two diagrams showing high-level view of the infrastructure + diagram showing the pipline (see the description)
 arrows etc [almost_done] [pipeline_diagram]
 
+
 -Create circle ci process to ensure everything is working just fine and know how to configure circle ci (you can make [almost_done] [deploy]
 a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts (remove hardconding)
 -try to update the configurations from the code (why it doesn't work) very strange
@@ -26,7 +27,7 @@ a simple ci circle) (including env variables, make sure to not change any of the
 -Create services and make sure every service works fine (including the env variables)
 -update circle ci with required env variables
 -env variables including aws_bucket, 
--remove password and other unrelated env variables from .sh in api => note how something changed in logs and made it running currnet/server.js not current/www/server.js (the cause is not in the script maybe but try push your code first before return it to normal value)
+-remove password and other unrelated env variables from .sh in api => note how something changed in logs and made it running currnet/server.js not current/www/server.js (the cause is not in the script maybe but try push your code first before return it to normal value) => notice how app version in eb is changing with git
 
 
 -update the host api in environment file (add env-variables from the local environment to the eb service)
