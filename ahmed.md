@@ -14,7 +14,7 @@ Where you stopped:
 -two diagrams showing high-level view of the infrastructure + diagram showing the pipline (see the description)
 arrows etc [almost_done] [pipeline_diagram]
 
-
+-last change: package.json to www/server.js
 -Create circle ci process to ensure everything is working just fine and know how to configure circle ci (you can make [almost_done] [deploy]
 a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts (remove hardconding)
 -try to update the configurations from the code (why it doesn't work) very strange

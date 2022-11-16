@@ -3,9 +3,9 @@ branch-defaults:
     environment: udagram-api-env
     group_suffix: null
 deploy:
-  artificat: www/Archive.zip
+  artificat: ../Archive.zip
 environment-defaults:
-  udagram-api-dev:
+  udagram-api-env:
     branch: null
     repository: null
 global:
