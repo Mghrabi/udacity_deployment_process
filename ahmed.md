@@ -20,11 +20,15 @@ a simple ci circle) (including env variables, make sure to not change any of the
 -add comments each time you put a new command and make them straight to the point 
 
 
+
 -try to add an uri in your .env host vairable and see if the connections is established successfully or not, and don't change the way sequelize connect to a database
+-removed from deploy script the setenv command (.sh)
 -Create services and make sure every service works fine (including the env variables)
 -update circle ci with required env variables
 -env variables including aws_bucket, 
--remove password and other unrelated env variables from .sh in api
+-remove password and other unrelated env variables from .sh in api => note how something changed in logs and made it running currnet/server.js not current/www/server.js (the cause is not in the script maybe but try push your code first before return it to normal value)
+
+
 -update the host api in environment file (add env-variables from the local environment to the eb service)
 -udpate the database link in sequalize file
 -Connect them together and make sure they work properly (take screeshots of them)
