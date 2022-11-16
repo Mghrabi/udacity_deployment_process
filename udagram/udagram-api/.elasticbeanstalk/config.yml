@@ -2,6 +2,8 @@ branch-defaults:
   master:
     environment: udagram-api-env
     group_suffix: null
+deploy:
+  artificat: www/Archive.zip
 environment-defaults:
   udagram-api-dev:
     branch: null
