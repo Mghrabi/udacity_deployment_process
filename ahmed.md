@@ -4,8 +4,7 @@ Where you stopped:
 -write the files of bin/deploy.sh in both api and front
 -crate services
 -add pipeline screenshots as for descriptions + real description
-
-
+-bin is not recongnized => SO WE FIRST DO (eb init ...) THEN (eb create --sample) THEN (use and deploy and fix)
 
 
 
@@ -16,7 +15,8 @@ Where you stopped:
 arrows etc [almost_done] [pipeline_diagram]
 
 -Create circle ci process to ensure everything is working just fine and know how to configure circle ci (you can make [almost_done] [deploy]
-a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts
+a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts (remove hardconding)
+-try to update the configurations from the code (why it doesn't work) very strange
 -add comments each time you put a new command and make them straight to the point 
 
 
@@ -30,7 +30,6 @@ a simple ci circle) (including env variables, make sure to not change any of the
 -Connect them together and make sure they work properly (take screeshots of them)
 -Make sure building commands and circle ci works fine when trying to update or something (take screenshots) (including env variables)
 -screen shots for the configuration screen in circle ci (to show where the env variables were added)
-
 
 
 docs:
