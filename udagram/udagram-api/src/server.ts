@@ -25,7 +25,8 @@ dotenv.config();
 
   const app = express();
   //change this
-  const port =  parseInt(process.env.PORT) | 8080;
+  // const port =  parseInt(process.env.PORT) | 8080;
+  const port = 8080
 
   app.use(bodyParser.json());
 
