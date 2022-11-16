@@ -14,12 +14,9 @@ Where you stopped:
 -two diagrams showing high-level view of the infrastructure + diagram showing the pipline (see the description)
 arrows etc [almost_done] [pipeline_diagram]
 
--last change: package.json to www/server.js
 -Create circle ci process to ensure everything is working just fine and know how to configure circle ci (you can make [almost_done] [deploy]
-a simple ci circle) (including env variables, make sure to not change any of them) don't forget to the change the port in server.ts (remove hardconding)
 -try to update the configurations from the code (why it doesn't work) very strange
 -add comments each time you put a new command and make them straight to the point 
-
 
 
 -try to add an uri in your .env host vairable and see if the connections is established successfully or not, and don't change the way sequelize connect to a database
@@ -44,7 +41,6 @@ docs:
 
 -understand what's left
 
-
-
 understanding the problem:
 -uploading the zip file manually works (which means the problem is not in the app itself but in the way you upload it)
+-you don't need to specify the env variables using .sh command, you can do it manually

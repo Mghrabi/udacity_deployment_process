@@ -17,16 +17,16 @@ dotenv.config();
     console.error("Unable to connect to the database:", error);
   }
 
-  // await sequelize.addModels(V0_FEED_MODELS);
-  // await sequelize.addModels(V0_USER_MODELS);
-  // await sequelize.sync();
+  await sequelize.addModels(V0_FEED_MODELS);
+  await sequelize.addModels(V0_USER_MODELS);
+  await sequelize.sync();
 
   console.log("Database Connected");
 
   const app = express();
   //change this
-  // const port =  parseInt(process.env.PORT) | 8080;
-  const port = 3001
+  const port =  parseInt(process.env.PORT) | 3001;
+  // const port = 3001
 
   app.use(bodyParser.json());
 
