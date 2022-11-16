@@ -43,3 +43,8 @@ docs:
 -params for env
 
 -understand what's left
+
+
+
+understanding the problem:
+-uploading the zip file manually works (which means the problem is not in the app itself but in the way you upload it)
