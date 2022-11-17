@@ -7,7 +7,7 @@ App link: http://myudagrambucket.s3-website-us-east-1.amazonaws.com
 
 ![Infrastructure](./screenshots/infra_diagram.png)
 
-## Pipline
+## Pipeline
 ![Pipeline](./screenshots/pipeline_diagram.png)
 ### Installation
 
