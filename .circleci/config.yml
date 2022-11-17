@@ -60,7 +60,7 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: Deploy App
+          name: Deploy Apps
           # TODO: Install, build, deploy in both apps
           command: |
             echo "Install, build, deploy in both apps"
