@@ -21,6 +21,16 @@
     - deploy frontend
     - deploy api
 
-## Simple diagram for the pipeline
 
-## Successful Pipeline Workflow (screenshots)
+## Simple diagram for the pipeline (CI/CD)
+![](../screenshots/pipeline_diagram.png)
+
+
+## Successful Pipeline Workflow 
+![Workflow](../screenshots/workflow.png)
+
+### Build
+![Build](../screenshots/build.png)
+
+### Deploy  
+![Deploy](../screenshots/deploy.png)
