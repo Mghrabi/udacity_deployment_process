@@ -34,3 +34,6 @@
 
 ### Deploy  
 ![Deploy](../screenshots/deploy.png)
+
+### Environment variables  
+![secrets](../screenshots/secrets.png)
