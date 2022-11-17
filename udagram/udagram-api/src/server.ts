@@ -11,7 +11,7 @@ dotenv.config();
   dotenv.config();
   
   try {
-    // await sequelize.authenticate();
+    await sequelize.authenticate();
     console.log("Connection has been established successfully.");
   } catch (error) {
     console.error("Unable to connect to the database:", error);
@@ -25,8 +25,8 @@ dotenv.config();
 
   const app = express();
   //change this
-  const port =  parseInt(process.env.PORT) | 3001;
-  // const port = 3001
+  // const port =  parseInt(process.env.PORT) | 3001;
+  const port = 3001
 
   app.use(bodyParser.json());
 
