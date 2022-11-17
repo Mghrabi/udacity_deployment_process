@@ -5,7 +5,8 @@ Where you stopped:
 -crate services
 -add pipeline screenshots as for descriptions + real description
 -bin is not recongnized => SO WE FIRST DO (eb init ...) THEN (eb create --sample) THEN (use and deploy and fix)
-
+-try to update the configurations from the code (why it doesn't work) very strange
+-add comments each time you put a new command and make them straight to the point 
 
 
 //In Progress//
@@ -15,8 +16,6 @@ Where you stopped:
 arrows etc [almost_done] [pipeline_diagram]
 
 -Create circle ci process to ensure everything is working just fine and know how to configure circle ci (you can make [almost_done] [deploy]
--try to update the configurations from the code (why it doesn't work) very strange
--add comments each time you put a new command and make them straight to the point 
 
 
 -try to add an uri in your .env host vairable and see if the connections is established successfully or not, and don't change the way sequelize connect to a database
