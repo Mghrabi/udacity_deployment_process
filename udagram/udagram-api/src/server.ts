@@ -25,8 +25,8 @@ dotenv.config();
 
   const app = express();
   //change this
-  // const port =  parseInt(process.env.PORT) | 3001;
-  const port = 3001
+  const port =  parseInt(process.env.PORT) | 3001;
+  // const port = 3001
 
   app.use(bodyParser.json());
 
